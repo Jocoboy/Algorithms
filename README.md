@@ -6,7 +6,10 @@
 Algorithm
     └── SortAlgorithm
             ├──BogoSort
-            └──BubbleSort
+            ├──BubbleSort
+            ├──QuickSort (Optimize BubbleSort)
+            ├──SelectionSort
+            └──HeapSort (Optimize SelectionSort)
 ```
 
 ## :heart:Friendly Link
