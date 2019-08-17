@@ -3,6 +3,9 @@
 ## :bulb:Current Progress
 
 ```
+            ┌──BinarySearch
+            ├──LinearSearch
+    ┌── SearchAlgorithm
 Algorithm
     └── SortAlgorithm
             ├──BogoSort
