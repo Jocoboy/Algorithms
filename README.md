@@ -9,7 +9,10 @@ Algorithm
             ├──BubbleSort
             ├──QuickSort (Optimize BubbleSort)
             ├──SelectionSort
-            └──HeapSort (Optimize SelectionSort)
+            ├──HeapSort (Optimize SelectionSort)
+            ├──InsertionSort
+            ├──ShellSort (Optimize InsertionSort)
+            └──MergeSort
 ```
 
 ## :heart:Friendly Link
