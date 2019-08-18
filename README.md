@@ -3,7 +3,11 @@
 ## :bulb:Current Progress
 
 ```
-            ┌──BinarySearch
+
+            ┌──IterativeTernarySearch (Iterative version of TernarySearch)
+            ├──TernarySearch
+            ├──IterativeBinarySearch (Iterative version of BinarySearch)
+            ├──BinarySearch
             ├──LinearSearch
     ┌── SearchAlgorithm
 Algorithm
