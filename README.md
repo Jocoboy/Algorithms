@@ -4,7 +4,9 @@
 
 ```
 
-            ┌──IterativeTernarySearch (Iterative version of TernarySearch)
+            ┌──SaddlebackSearch
+            ├──InterpolationSearch
+            ├──IterativeTernarySearch (Iterative version of TernarySearch)
             ├──TernarySearch
             ├──IterativeBinarySearch (Iterative version of BinarySearch)
             ├──BinarySearch
