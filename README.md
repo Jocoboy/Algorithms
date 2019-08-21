@@ -22,6 +22,13 @@ Algorithm
             ├──InsertionSort
             ├──ShellSort (Optimize InsertionSort)
             └──MergeSort
+
+
+DataStructure
+    └── queue
+            ├──Queue
+            ├──PriorityQueue
+            └──GenericArrayListQueue (run-time type)
 ```
 
 ## :heart:Friendly Link
