@@ -23,7 +23,9 @@ Algorithm
             ├──ShellSort (Optimize InsertionSort)
             └──MergeSort
 
-
+            ┌──MaxHeap
+            ├──MinHeap
+    ┌── heap
 DataStructure
     └── queue
             ├──Queue
