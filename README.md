@@ -26,6 +26,9 @@ Algorithm
             ┌──MaxHeap
             ├──MinHeap
     ┌── heap
+    ├── stack
+    |        ├──Stack
+    |        └──GenericArrayListStack (run-time type)
 DataStructure
     └── queue
             ├──Queue
