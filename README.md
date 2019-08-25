@@ -30,6 +30,9 @@ Algorithm
     |        ├──Stack
     |        └──GenericArrayListStack (run-time type)
 DataStructure
+    |       ┌──SinglyLinkedList
+    |       ├──DoublyLinkedList
+    ├── list
     └── queue
             ├──Queue
             ├──PriorityQueue
