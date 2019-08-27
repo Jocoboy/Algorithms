@@ -1,16 +1,5 @@
 package datastructure.list;
 
-class Node {
-
-    int value;
-    Node next;
-    Node previous;
-
-    public Node(int value) {
-        this.value = value;
-    }
-}
-
 /**
  * A linked list is similar to an array, it holds values. However, links in a
  * linked list do not have indexes. With a linked list you do not need to
@@ -19,6 +8,17 @@ class Node {
  * link and the previous one.
  */
 public class DoublyLinkedList {
+
+    class Node {
+
+        int value;
+        Node next;
+        Node previous;
+    
+        public Node(int value) {
+            this.value = value;
+        }
+    }
 
     private Node head;
     private Node tail;

@@ -54,9 +54,7 @@ class PriorityQueue {
     public int getSize() {
         return curSize;
     }
-}
 
-public class PriorityQueues {
     public static void main(String[] args) {
         PriorityQueue priorityQueue = new PriorityQueue(4);
         priorityQueue.offer(10);
@@ -64,7 +62,7 @@ public class PriorityQueues {
         priorityQueue.offer(5);
         priorityQueue.offer(3);
 
-        for (int i = priorityQueue.getSize(); i >= 0; i--) {
+        for (int i = priorityQueue.getSize(); i > 0; i--) {
             System.out.println(priorityQueue.poll() + " ");// 10 5 3 2
         }
     }

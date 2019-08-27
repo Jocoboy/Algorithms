@@ -33,9 +33,7 @@ class GenericArrayListStack<T>{
     public T peek(){
         return arrayListStack.get(arrayListStack.size()-1);
     }
-}
 
-public class GenericArrayListStacks {
     public static void main(String[] args) {
         GenericArrayListStack<Integer> stack = new GenericArrayListStack<Integer>();
 

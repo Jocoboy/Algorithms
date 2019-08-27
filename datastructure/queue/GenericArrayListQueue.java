@@ -41,9 +41,7 @@ class GenericArrayListQueue<T> {
     public int getSize(){
         return queue.size();
     }
-}
 
-public class GenericArrayListQueues{
     public static void main (String[] args){
         GenericArrayListQueue<Integer> queue = new GenericArrayListQueue<Integer>();
         System.out.println("Running...");

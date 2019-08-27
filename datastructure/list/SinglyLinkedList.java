@@ -1,22 +1,22 @@
 package datastructure.list;
 
-class Node {
-
-    int value;
-    Node next;
-
-    Node(int value) {
-        this.value = value;
-        this.next = null;
-    }
-}
-
 /**
  * A linked list is similar to an array, it hold values.However, links in a
  * linked list do not have indexes. With a linked list you do not need to
  * predetermine it's size as it grows and shrinks as it is edited.
  */
 public class SinglyLinkedList {
+
+    class Node {
+
+        int value;
+        Node next;
+    
+        Node(int value) {
+            this.value = value;
+            this.next = null;
+        }
+    }
 
     private Node head;
 
