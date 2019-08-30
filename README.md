@@ -30,7 +30,8 @@ Algorithm
                                 |       ├──Stack
         HashMap──┐              |       └──GenericArrayListStack (run-time type)
                 map —— DataStructure
-                tree ──┘        |       ┌──SinglyLinkedList
+                tree ──┘        |      
+   GenericTree──┤               |       ┌──SinglyLinkedList
     BinaryTree──┘               |       ├──DoublyLinkedList
                                 ├── list
                                 └── queue
