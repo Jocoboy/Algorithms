@@ -31,8 +31,9 @@ Algorithm
         HashMap──┐              |       └──GenericArrayListStack (run-time type)
                 map —— DataStructure
                 tree ──┘        |      
-   GenericTree──┤               |       ┌──SinglyLinkedList
-    BinaryTree──┘               |       ├──DoublyLinkedList
+   GenericTree──┤               |      
+    BinaryTree──┤               |       ┌──SinglyLinkedList
+       AVLTree──┘               |       ├──DoublyLinkedList
                                 ├── list
                                 └── queue
                                         ├──Queue
