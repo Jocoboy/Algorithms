@@ -32,7 +32,8 @@ Algorithm
                 map —— DataStructure
                 tree ──┘        |      
    GenericTree──┤               |      
-    BinaryTree──┤               |       ┌──SinglyLinkedList
+    BinaryTree──┤               |
+          Trie──┤               |       ┌──SinglyLinkedList
        AVLTree──┘               |       ├──DoublyLinkedList
                                 ├── list
                                 └── queue
