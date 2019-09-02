@@ -26,9 +26,9 @@ Algorithm
                                         ┌──MaxHeap
                                         ├──MinHeap
                                 ┌── heap
-                                ├── stack
-                                |       ├──Stack
-        HashMap──┐              |       └──GenericArrayListStack (run-time type)
+ AdjacencyList──┐               ├── stack
+                graph──┐        ├──Stack
+        HashMap──┐     |        |       └──GenericArrayListStack (run-time type)
                 map —— DataStructure
                 tree ──┘        |      
    GenericTree──┤               |      
