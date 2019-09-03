@@ -23,23 +23,23 @@ Algorithm
             ├──ShellSort (Optimize InsertionSort)
             └──MergeSort
 
-                                        ┌──MaxHeap
-                                        ├──MinHeap
-                                ┌── heap
- AdjacencyList──┐               ├── stack
-                graph──┐        ├──Stack
-        HashMap──┐     |        |       └──GenericArrayListStack (run-time type)
-                map —— DataStructure
-                tree ──┘        |      
-   GenericTree──┤               |      
-    BinaryTree──┤               |
-          Trie──┤               |       ┌──SinglyLinkedList
-       AVLTree──┘               |       ├──DoublyLinkedList
-                                ├── list
-                                └── queue
-                                        ├──Queue
-                                        ├──PriorityQueue
-                                        └──GenericArrayListQueue (run-time type)
+                                                ┌──MaxHeap
+                                                ├──MinHeap
+        AdjacencyMatrix──┐              ┌── heap
+          AdjacencyList──┤              ├── stack
+                        graph──┐        ├──Stack
+                HashMap──┐     |        |       └──GenericArrayListStack (run-time type)
+                        map —— DataStructure
+                        tree ──┘        |      
+            GenericTree──┤              |      
+             BinaryTree──┤              |
+                   Trie──┤              |       ┌──SinglyLinkedList
+                AVLTree──┘              |       ├──DoublyLinkedList
+                                        ├── list
+                                        └── queue
+                                                ├──Queue
+                                                ├──PriorityQueue
+                                                └──GenericArrayListQueue (run-time type)
 ```
 
 ## :heart:Friendly Link
