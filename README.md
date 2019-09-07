@@ -35,7 +35,8 @@ Algorithm
                                         tree ──┘        |      
                             GenericTree──┤              |      
                              BinaryTree──┤              |
-                            SegmentTree──┤              | 
+                      BinaryIndexedTree──┤              |
+                            SegmentTree──┤              |
                                    Trie──┤              |       ┌──SinglyLinkedList
                                 AVLTree──┘              |       ├──DoublyLinkedList
                                                         ├── list
