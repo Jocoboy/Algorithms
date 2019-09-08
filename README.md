@@ -37,6 +37,7 @@ Algorithm
                              BinaryTree──┤              |
                       BinaryIndexedTree──┤              |
                             SegmentTree──┤              |
+                  PersistentSegmentTree──┤              |
                                    Trie──┤              |       ┌──SinglyLinkedList
                                 AVLTree──┘              |       ├──DoublyLinkedList
                                                         ├── list
