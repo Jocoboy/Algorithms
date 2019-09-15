@@ -4,24 +4,25 @@
 
 ```
 
-            ┌──SaddlebackSearch
-            ├──InterpolationSearch
-            ├──IterativeTernarySearch (Iterative version of TernarySearch)
-            ├──TernarySearch
-            ├──IterativeBinarySearch (Iterative version of BinarySearch)
-            ├──BinarySearch
-            ├──LinearSearch
-    ┌── SearchAlgorithm
-Algorithm
-    └── SortAlgorithm
-            ├──BogoSort
-            ├──BubbleSort
-            ├──QuickSort (Optimize BubbleSort)
-            ├──SelectionSort
-            ├──HeapSort (Optimize SelectionSort)
-            ├──InsertionSort
-            ├──ShellSort (Optimize InsertionSort)
-            └──MergeSort
+                                                ┌──SaddlebackSearch
+                                                ├──InterpolationSearch
+                                                ├──IterativeTernarySearch (Iterative version of TernarySearch)
+                                                ├──TernarySearch
+                                                ├──IterativeBinarySearch (Iterative version of BinarySearch)
+                                                ├──BinarySearch
+                                                ├──LinearSearch
+            Fibonacci──┐                        |
+(Fast power of matrix) |                ┌── SearchAlgorithm
+                        NumberTheory —— Algorithm
+                                        └── SortAlgorithm
+                                                ├──BogoSort
+                                                ├──BubbleSort
+                                                ├──QuickSort (Optimize BubbleSort)
+                                                ├──SelectionSort
+                                                ├──HeapSort (Optimize SelectionSort)
+                                                ├──InsertionSort
+                                                ├──ShellSort (Optimize InsertionSort)
+                                                └──MergeSort
 
                                                                 ┌──MaxHeap
                                                                 ├──MinHeap
