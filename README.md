@@ -40,7 +40,8 @@
                             SegmentTree──┤              |
                   PersistentSegmentTree──┤              |
                                    Trie──┤              |       ┌──SinglyLinkedList
-                                AVLTree──┘              |       ├──DoublyLinkedList
+                                AVLTree──┘              |       ├──CircularLinkedList
+                                                        |       ├──DoublyLinkedList
                                                         ├── list
                                                         └── queue
                                                                 ├──Queue
