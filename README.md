@@ -41,6 +41,7 @@
                   PersistentSegmentTree──┤              |
                                    Trie──┤              |       ┌──SinglyLinkedList
                                 AVLTree──┘              |       ├──CircularLinkedList
+                                                        |       ├──ReverseLinkedList
                                                         |       ├──DoublyLinkedList
                                                         ├── list
                                                         └── queue
