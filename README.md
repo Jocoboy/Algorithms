@@ -42,6 +42,7 @@
                                    Trie──┤              |       ┌──SinglyLinkedList
                                 AVLTree──┘              |       ├──CircularLinkedList
                                                         |       ├──ReverseLinkedList
+                                                        |       ├──MergeLinkedList
                                                         |       ├──DoublyLinkedList
                                                         ├── list
                                                         └── queue
