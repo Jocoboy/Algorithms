@@ -62,13 +62,16 @@ public class MergeLinkedList {
         System.out.println();
     }
 
-    public void display(){
-        Node curNode = finalHead.next.next;
+    public void display() {
+        Node curNode = finalHead;
+        for (int i = 0; i < n - 1; i++) {
+            curNode = curNode.next;
+        }
         int localSize = 0;
-        for(int i = 0 ; i < n ; i++){
+        for (int i = 0; i < n; i++) {
             localSize += sizes[i];
         }
-        while (localSize-- > 3) {
+        while (localSize-- > n) {
             curNode = curNode.next;
             System.out.print(curNode.data + " ");
         }
@@ -106,7 +109,7 @@ public class MergeLinkedList {
     }
 
     public static void main(String[] args) {
-        MergeLinkedList mergeLinkedList = new MergeLinkedList(3);
+        MergeLinkedList mergeLinkedList = new MergeLinkedList(4);
         mergeLinkedList.run();
     }
 }
