@@ -7,14 +7,14 @@ class Queue {
     // lower bound of the queue
     private int front;
     // upper bound of the queue
-    private int back;
+    private int rear;
     private int curSize;
 
     public Queue(int initSize) {
         maxSize = initSize;
         queueArray = new int[initSize];
         front = 0;
-        back = -1;
+        rear = -1;
         curSize = 0;
     }
 
@@ -30,11 +30,11 @@ class Queue {
         if (isFull()) {
             return false;
         }
-        if (back == maxSize - 1) {
-            back = -1;
+        if (rear == maxSize - 1) {
+            rear = -1;
         }
-        back++;
-        queueArray[back] = value;
+        rear++;
+        queueArray[rear] = value;
         curSize++;
         return true;
     }
