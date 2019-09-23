@@ -47,6 +47,7 @@
                                                         ├── list
                                                         └── queue
                                                                 ├──Queue
+                                                                ├──CircularQueue
                                                                 ├──PriorityQueue
                                                                 └──GenericArrayListQueue (run-time type)
 ```
