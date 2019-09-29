@@ -35,8 +35,8 @@
                                         map —— DataStructure
                                         tree ──┘        |      
                             GenericTree──┤              |      
-                             BinaryTree──┤              |
-                      BinaryIndexedTree──┤              |
+                             BinaryTree──┤              |       ┌──PatternMatching (KMP)
+                      BinaryIndexedTree──┤              ├── string
                             SegmentTree──┤              |
                   PersistentSegmentTree──┤              |
                                    Trie──┤              |       ┌──SinglyLinkedList
