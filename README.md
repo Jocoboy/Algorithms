@@ -36,11 +36,12 @@
                                         tree ──┘        |      
                             GenericTree──┤              |      
                              BinaryTree──┤              |       ┌──PatternMatching (KMP)
-                      BinaryIndexedTree──┤              ├── string
-                            SegmentTree──┤              |
+                      BinaryIndexedTree──┤              |       ├──PatternMatching (EXKMP)
+                            SegmentTree──┤              ├── string
                   PersistentSegmentTree──┤              |
-                                   Trie──┤              |       ┌──SinglyLinkedList
-                                AVLTree──┘              |       ├──CircularLinkedList
+                                   Trie──┤              |       
+                                AVLTree──┘              |       ┌──SinglyLinkedList
+                                                        |       ├──CircularLinkedList
                                                         |       ├──ReverseLinkedList
                                                         |       ├──MergeLinkedList
                                                         |       ├──DoublyLinkedList
