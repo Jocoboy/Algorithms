@@ -37,7 +37,8 @@
                             GenericTree──┤              |      
                              BinaryTree──┤              |
                      IterativeTraversal──┤              |
-                        ArrayBinaryTree──┤              |       ┌──PatternMatching (KMP)
+                        ArrayBinaryTree──┤              |
+                                Huffman──┤              |       ┌──PatternMatching (KMP)
                       BinaryIndexedTree──┤              |       ├──PatternMatching (EXKMP)
                             SegmentTree──┤              ├── string
                   PersistentSegmentTree──┤              |
