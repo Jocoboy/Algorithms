@@ -29,7 +29,8 @@
                         AdjacencyMatrix──┐              ┌── heap
                           AdjacencyList──┤              |
                      ConnectedComponent──┤              |
-    (tarjan) StronglyConnectedComponent──┤              ├── stack
+    (tarjan) StronglyConnectedComponent──┤              |
+                                PrimMST──┤              ├── stack
                                         graph──┐        |       ├──Stack
                                 HashMap──┐     |        |       └──GenericArrayListStack (run-time type)
                                         map —— DataStructure
