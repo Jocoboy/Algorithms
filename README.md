@@ -30,7 +30,8 @@
                           AdjacencyList──┤              |
                      ConnectedComponent──┤              |
     (tarjan) StronglyConnectedComponent──┤              |
-                                PrimMST──┤              ├── stack
+                                PrimMST──┤              |  
+                             KruskalMST──┤              ├── stack
                                         graph──┐        |       ├──Stack
                                 HashMap──┐     |        |       └──GenericArrayListStack (run-time type)
                                         map —— DataStructure
