@@ -31,7 +31,8 @@
                      ConnectedComponent──┤              |
     (tarjan) StronglyConnectedComponent──┤              |
                                 PrimMST──┤              |  
-                             KruskalMST──┤              ├── stack
+                             KruskalMST──┤              |
+                           CriticalPath──┤              ├── stack
                                         graph──┐        |       ├──Stack
                                 HashMap──┐     |        |       └──GenericArrayListStack (run-time type)
                                         map —— DataStructure
