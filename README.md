@@ -32,7 +32,9 @@
     (tarjan) StronglyConnectedComponent──┤              |
                                 PrimMST──┤              |  
                              KruskalMST──┤              |
-                           CriticalPath──┤              ├── stack
+                           CriticalPath──┤              |
+                               Dijkstra──┤              |
+                         Floyd-Warshall──┤              ├── stack
                                         graph──┐        |       ├──Stack
                                 HashMap──┐     |        |       └──GenericArrayListStack (run-time type)
                                         map —— DataStructure
