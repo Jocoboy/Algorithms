@@ -34,7 +34,9 @@
                              KruskalMST──┤              |
                            CriticalPath──┤              |
                                Dijkstra──┤              |
-                         Floyd-Warshall──┤              ├── stack
+                         Floyd-Warshall──┤              |
+                           Bellman-Ford──┤              |
+                                   Spfa──┤              ├── stack
                                         graph──┐        |       ├──Stack
                                 HashMap──┐     |        |       └──GenericArrayListStack (run-time type)
                                         map —— DataStructure
