@@ -21,7 +21,7 @@ public class MergeSort implements Sort {
         if (left < right) {
             int middle = left + (right - left) / 2;
             doSort(array, temp, left, middle);
-            doSort(array, temp, middle + 1, left);
+            doSort(array, temp, middle + 1, right);
             merge(array, temp, left, middle, right);
         }
     }
