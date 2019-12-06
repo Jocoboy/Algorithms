@@ -22,7 +22,8 @@
                                                 ├──HeapSort (Optimize SelectionSort)
                                                 ├──InsertionSort
                                                 ├──ShellSort (Optimize InsertionSort)
-                                                └──MergeSort
+                                                ├──MergeSort
+                                                └──CountingSort
 
                                                                 ┌──MaxHeap
                                                                 ├──MinHeap
