@@ -135,6 +135,7 @@ public class Huffman {
 
         Object[] encodeRes = hf.encode(str);
         String encodeStr = (String) encodeRes[0];
+        @SuppressWarnings("unchecked")
         Map<Character, String> encodeMap = (Map<Character, String>) encodeRes[1];
         System.out.println("After encoding: " + encodeStr);
 

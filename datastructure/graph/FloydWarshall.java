@@ -1,3 +1,4 @@
+package datastructure.graph;
 import java.util.Scanner;
 
 public class FloydWarshall {
